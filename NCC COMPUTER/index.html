@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="NCC Computer Laboratory - Practical ICT training, certificates, and job-ready skills. Offering courses in Computer Basics, Graphic Design, AI Content Creation, and Web Development.">
+    <title>NCC Computer Laboratory | Practical ICT Training & Certificates</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo-section">
+                    <a href="index.html" class="logo-block">NCC</a>
+                    <div class="tagline"><strong>NCC COMPUTER LABORATORY</strong></div>
+                </div>
+                <nav class="nav">
+                    <a href="#" class="nav-link">Home</a>
+                    <a href="#courses" class="nav-link">Courses</a>
+                    <a href="#blog" class="nav-link">Blog</a>
+                    <a href="#contact" class="nav-link">Contact</a>
+                    <a href="#enroll" class="btn-enroll">Enroll</a>
+                </nav>
+                <button class="mobile-menu-toggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+        <a href="#" class="mobile-nav-link">Home</a>
+        <a href="#courses" class="mobile-nav-link">Courses</a>
+        <a href="#blog" class="mobile-nav-link">Blog</a>
+        <a href="#contact" class="mobile-nav-link">Contact</a>
+        <a href="#enroll" class="mobile-nav-link btn-enroll-mobile">Enroll</a>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Practical Computer Courses that actually teach you to do the work.</h1>
+                <p class="hero-subtitle">We provide hands-on ICT education that prepares you for real-world challenges.
+                    Learn from certified instructors and gain job-ready skills through practical projects.</p>
+
+                <div class="feature-pills">
+                    <div class="pill" id="flexiblePaymentsPill" style="cursor: pointer;">
+                        <svg class="pill-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                        <span>Flexible payments</span>
+                    </div>
+                    <div class="pill" id="certifiedInstructorsPill" style="cursor: pointer;">
+                        <svg class="pill-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" />
+                        </svg>
+                        <span>Certified instructors</span>
+                    </div>
+                    <div class="pill" id="weekendBatchesPill" style="cursor: pointer;">
+                        <svg class="pill-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                        </svg>
+                        <span>Weekend & evening batches</span>
+                    </div>
+                </div>
+
+                <!-- Feature Details Sections -->
+                <div id="flexiblePaymentsDetails"
+                    style="display: none; margin-top: 30px; padding: 25px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 16px; color: white; animation: fadeIn 0.3s ease;">
+                    <h3 style="margin: 0 0 15px 0; font-size: 1.3rem; font-weight: 700;">💳 Flexible Payment Options
+                    </h3>
+                    <div
+                        style="background: rgba(255, 255, 255, 0.15); padding: 20px; border-radius: 12px; backdrop-filter: blur(10px);">
+                        <ul style="margin: 0; padding-left: 20px; line-height: 1.8;">
+                            <li>Pay in installments - No need to pay full amount upfront</li>
+                            <li>Weekly or monthly payment plans available</li>
+                            <li>No hidden fees or interest charges</li>
+                            <li>Secure bank transfer payments</li>
+                            <li>Start learning immediately after first payment</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div id="certifiedInstructorsDetails"
+                    style="display: none; margin-top: 30px; padding: 25px; background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); border-radius: 16px; color: white; animation: fadeIn 0.3s ease;">
+                    <h3 style="margin: 0 0 15px 0; font-size: 1.3rem; font-weight: 700;">🎓 Certified & Experienced
+                        Instructors</h3>
+                    <div
+                        style="background: rgba(255, 255, 255, 0.15); padding: 20px; border-radius: 12px; backdrop-filter: blur(10px);">
+                        <ul style="margin: 0; padding-left: 20px; line-height: 1.8;">
+                            <li>Industry-certified professionals with years of experience</li>
+                            <li>Real-world project experience in their fields</li>
+                            <li>Dedicated to student success and career growth</li>
+                            <li>Personalized attention and mentorship</li>
+                            <li>Up-to-date with latest industry trends and technologies</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div id="weekendBatchesDetails"
+                    style="display: none; margin-top: 30px; padding: 25px; background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); border-radius: 16px; color: white; animation: fadeIn 0.3s ease;">
+                    <h3 style="margin: 0 0 15px 0; font-size: 1.3rem; font-weight: 700;">📅 Flexible Schedule Options
+                    </h3>
+                    <div
+                        style="background: rgba(255, 255, 255, 0.15); padding: 20px; border-radius: 12px; backdrop-filter: blur(10px);">
+                        <ul style="margin: 0; padding-left: 20px; line-height: 1.8;">
+                            <li><strong>Weekend Classes:</strong> Saturday & Sunday sessions</li>
+                            <li><strong>Evening Batches:</strong> 6:00 PM - 9:00 PM on weekdays</li>
+                            <li>Perfect for working professionals and students</li>
+                            <li>Same quality education, flexible timing</li>
+                            <li>Multiple batch options to choose from</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="../../../.gemini/antigravity/brain/88aa4637-1352-45e4-b5eb-91ec8b4bef8a/uploaded_image_1764932291356.jpg"
+                    alt="NCC - Nigerian Communications Commission Logo" loading="eager">
+            </div>
+        </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section id="courses" class="courses">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Courses</h2>
+                <p class="section-subtitle">Choose from our carefully designed courses to boost your career</p>
+            </div>
+
+            <div class="courses-grid">
+                <!-- Course 1: Computer Basics -->
+                <div class="course-card">
+                    <div class="course-badge">Beginner</div>
+                    <h3 class="course-title">Computer Basics</h3>
+                    <div class="course-meta">
+                        <span class="course-duration">6 weeks • 2 hours per day</span>
+                        <span class="course-cert">Certificate</span>
+                    </div>
+                    <p class="course-description">Windows basics, MS Office, Internet usage</p>
+                    <div class="course-footer">
+                        <div class="course-price">₦5,500</div>
+                        <a href="#enroll" class="btn-course">Enroll Now</a>
+                    </div>
+                </div>
+
+                <!-- Course 2: Graphic Design -->
+                <div class="course-card featured">
+                    <div class="course-badge">Popular</div>
+                    <h3 class="course-title">Graphic Design</h3>
+                    <div class="course-meta">
+                        <span class="course-duration">6 weeks • 24 hours per day</span>
+                        <span class="course-cert">Portfolio</span>
+                    </div>
+                    <p class="course-description">Corel Draw & Canva, Gemini - Editing, UI mockups, brand design</p>
+                    <div class="course-footer">
+                        <div class="course-price">₦7,500</div>
+                        <a href="#enroll" class="btn-course">Enroll Now</a>
+                    </div>
+                </div>
+
+                <!-- Course 3: AI Content Creation -->
+                <div class="course-card">
+                    <div class="course-badge">Trending</div>
+                    <h3 class="course-title">AI Content Creation</h3>
+                    <div class="course-meta">
+                        <span class="course-duration">6 weeks • 3 hours per day</span>
+                        <span class="course-cert">Exam prep</span>
+                    </div>
+                    <p class="course-description">Gemini, Google Veo2, Suno, etc.</p>
+                    <div class="course-footer">
+                        <div class="course-price">₦8,000</div>
+                        <a href="#enroll" class="btn-course">Enroll Now</a>
+                    </div>
+                </div>
+
+                <!-- Course 4: Web Development -->
+                <div class="course-card">
+                    <div class="course-badge">Advanced</div>
+                    <h3 class="course-title">Web Development (Frontend)</h3>
+                    <div class="course-meta">
+                        <span class="course-duration">8 weeks • 3 hours per day</span>
+                        <span class="course-cert">Live projects</span>
+                    </div>
+                    <p class="course-description">HTML, CSS, AI Coding Agents</p>
+                    <div class="course-footer">
+                        <div class="course-price">₦15,000</div>
+                        <a href="#enroll" class="btn-course">Enroll Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Payment Table Section -->
+    <section class="payment-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Course Pricing</h2>
+                <p class="section-subtitle">Simple, transparent pricing for all courses</p>
+            </div>
+
+            <div class="payment-table-wrapper">
+                <table class="payment-table">
+                    <thead>
+                        <tr>
+                            <th>Course</th>
+                            <th>Duration</th>
+                            <th>Price</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Computer Basics</td>
+                            <td>6 weeks</td>
+                            <td class="price">₦5,500</td>
+                        </tr>
+                        <tr>
+                            <td>Graphic Design</td>
+                            <td>6 weeks</td>
+                            <td class="price">₦7,500</td>
+                        </tr>
+                        <tr>
+                            <td>AI Content Creation</td>
+                            <td>6 weeks</td>
+                            <td class="price">₦8,000</td>
+                        </tr>
+                        <tr>
+                            <td>Web Development (Frontend)</td>
+                            <td>8 weeks</td>
+                            <td class="price">₦15,000</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="payment-methods">
+                <h3 class="payment-methods-title">Accepted Payment Methods</h3>
+                <div class="payment-methods-list">
+                    <div class="payment-method" id="bankTransferBtn" style="cursor: pointer;">Bank Transfer</div>
+                </div>
+                <div id="bankDetails"
+                    style="display: none; margin-top: 20px; padding: 20px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 12px; color: white;">
+                    <h4 style="margin: 0 0 15px 0; font-size: 1.1rem;">Bank Account Details</h4>
+                    <div
+                        style="background: rgba(255, 255, 255, 0.1); padding: 15px; border-radius: 8px; backdrop-filter: blur(10px);">
+                        <p style="margin: 8px 0; font-size: 0.95rem;"><strong>Account Name:</strong> Adamu Alhassan</p>
+                        <p style="margin: 8px 0; font-size: 0.95rem;"><strong>Account Number:</strong> 9130587083</p>
+                        <p style="margin: 8px 0; font-size: 0.95rem;"><strong>Bank:</strong> Opay</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="blog">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Latest Insights</h2>
+                <p class="section-subtitle">Tips, guides, and resources to accelerate your learning</p>
+            </div>
+
+            <div class="blog-grid">
+                <!-- Blog Post 1 -->
+                <article class="blog-card">
+                    <div class="blog-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+                        </svg>
+                    </div>
+                    <h3 class="blog-title">Top 5 free tools for beginner web developers</h3>
+                    <p class="blog-excerpt">Discover essential free tools that will help kickstart your web development
+                        journey. From code editors to design resources.</p>
+                    <a href="blog-web-dev-tools.html" class="blog-link">Read more →</a>
+                </article>
+
+                <!-- Blog Post 2 -->
+                <article class="blog-card">
+                    <div class="blog-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4" />
+                        </svg>
+                    </div>
+                    <h3 class="blog-title">How to prepare for your CCNA exam</h3>
+                    <p class="blog-excerpt">A comprehensive guide to help you ace your CCNA certification. Study tips,
+                        practice labs, and exam strategies.</p>
+                    <a href="blog-ccna-exam.html" class="blog-link">Read more →</a>
+                </article>
+
+                <!-- Blog Post 3 -->
+                <article class="blog-card">
+                    <div class="blog-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01" />
+                        </svg>
+                    </div>
+                    <h3 class="blog-title">Design portfolio checklist</h3>
+                    <p class="blog-excerpt">Make your design portfolio stand out. Essential elements, presentation tips,
+                        and best practices for showcasing your work.</p>
+                    <a href="blog-design-portfolio.html" class="blog-link">Read more →</a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Enrollment Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-wrapper">
+                <!-- Contact Info -->
+                <div class="contact-info">
+                    <h2 class="contact-title">Why Choose NCC Lab</h2>
+                    <ul class="benefits-list">
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            </svg>
+                            Industry-certified instructors with real-world experience
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            </svg>
+                            Hands-on practical projects and live workshops
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            </svg>
+                            Flexible payment plans and installment options
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            </svg>
+                            Weekend and evening batches for working professionals
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            </svg>
+                            Modern computer lab with latest equipment
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            </svg>
+                            Recognized certificates upon course completion
+                        </li>
+                    </ul>
+
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                            </svg>
+                            <span>+234 9130 587 083</span>
+                        </div>
+                        <div class="contact-item">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                            </svg>
+                            <span>adamu9080@gmail.com</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Enrollment Form -->
+                <div id="enroll" class="enrollment-form">
+                    <h2 class="form-title">Enroll Today</h2>
+                    <p class="form-subtitle">Fill out the form and we'll get back to you shortly</p>
+
+                    <form class="form" id="enrollmentForm">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="course">Select Course</label>
+                            <select id="course" name="course" required>
+                                <option value="">Choose a course...</option>
+                                <option value="computer-basics">Computer Basics</option>
+                                <option value="graphic-design">Graphic Design</option>
+                                <option value="ai-content">AI Content Creation</option>
+                                <option value="web-development">Web Development (Frontend)</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn-submit">Submit Enrollment</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; <span id="currentYear"></span> NCC Computer Laboratory. All rights reserved.</p>
+                    <p class="footer-tagline">Designed for clarity • Built to convert</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollToTop" class="scroll-to-top" aria-label="Scroll to top">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18" />
+        </svg>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
